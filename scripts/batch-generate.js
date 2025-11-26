@@ -15,7 +15,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 
-const DEFAULT_BASE_URL = 'https://YOUR_USERNAME.github.io/email-signatures/assets';
+const DEFAULT_BASE_URL = 'https://mrstevea.github.io/email-signatures/assets';
 
 /**
  * Formats phone number to tel: link format

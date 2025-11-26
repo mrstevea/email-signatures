@@ -17,7 +17,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.join(__dirname, '..');
 
 // Default GitHub Pages URL (update after setting up GitHub Pages)
-const DEFAULT_BASE_URL = 'https://YOUR_USERNAME.github.io/email-signatures/assets';
+const DEFAULT_BASE_URL = 'https://mrstevea.github.io/email-signatures/assets';
 
 /**
  * Formats phone number to tel: link format (removes spaces, parentheses, hyphens)
