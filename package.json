@@ -1,0 +1,28 @@
+{
+  "name": "@spendrule/email-signatures",
+  "version": "1.0.0",
+  "description": "Automated email signature generator for Spendrule team members",
+  "main": "scripts/generate.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "batch": "node scripts/batch-generate.js",
+    "test": "node scripts/generate.js --test"
+  },
+  "keywords": [
+    "email",
+    "signature",
+    "generator",
+    "spendrule"
+  ],
+  "author": "Spendrule",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/email-signatures.git"
+  }
+}

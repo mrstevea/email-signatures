@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Joseph Akintolayo",
+    "title": "CTO & Co-Founder",
+    "email": "joseph@spendrule.com",
+    "phone": "+1 (469) 998-2727",
+    "photoFilename": "profile-joseph.jpg"
+  },
+  {
+    "name": "Jane Doe",
+    "title": "Head of Product",
+    "email": "jane@spendrule.com",
+    "phone": "+1 (469) 998-2728",
+    "photoFilename": "profile-jane.jpg"
+  },
+  {
+    "name": "John Smith",
+    "title": "Senior Engineer",
+    "email": "john@spendrule.com",
+    "phone": "+1 (469) 998-2729",
+    "photoFilename": "profile-john.jpg"
+  }
+]

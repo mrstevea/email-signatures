@@ -1,0 +1,120 @@
+<!--
+  EMAIL SIGNATURE TEMPLATE - SPENDRULE
+
+  This template uses placeholders that will be replaced by the generator:
+  {{PROFILE_PHOTO_URL}}, {{NAME}}, {{TITLE}}, {{EMAIL}}, {{PHONE}}, {{PHONE_LINK}}, {{LOGO_URL}}
+
+  Recommended adjustments for reliability:
+  - Profile photo uses border-radius with VML fallback for Outlook
+  - Divider uses table cell background for better cross-client support
+  - Font sizes slightly adjusted up from design to meet 12px minimum
+  - All spacing uses table cellpadding/cellspacing for predictable rendering
+
+  ASSET HOSTING:
+  Images are hosted via GitHub Pages at: https://YOUR_USERNAME.github.io/email-signatures/assets/
+  Or use GitHub raw URLs: https://raw.githubusercontent.com/YOUR_USERNAME/email-signatures/main/assets/
+-->
+
+<table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0; padding: 0;">
+  <tr>
+    <td style="padding: 0;">
+
+      <!-- Main signature container -->
+      <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; width: 100%;">
+        <tr>
+
+          <!-- Profile Photo Section -->
+          <td valign="top" style="padding: 0 16px 0 0; width: 135px;">
+            <!--[if mso]>
+            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" strokecolor="none" strokeweight="0" style="width:135px;height:135px;">
+              <v:fill type="frame" src="{{PROFILE_PHOTO_URL}}" />
+              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" arcsize="18%" style="width:135px;height:135px;" strokecolor="none" strokeweight="0">
+                <v:fill type="frame" src="{{PROFILE_PHOTO_URL}}" />
+              </v:roundrect>
+            </v:rect>
+            <![endif]-->
+            <!--[if !mso]><!-->
+            <img src="{{PROFILE_PHOTO_URL}}"
+                 alt="{{NAME}} profile photo"
+                 width="135"
+                 height="135"
+                 style="display: block; border-radius: 24px; border: 0; width: 135px; height: 135px; object-fit: cover;" />
+            <!--<![endif]-->
+          </td>
+
+          <!-- Vertical Divider -->
+          <td valign="top" style="padding: 0 20px 0 0; width: 2px; background-color: #FF4F00;">
+            <div style="width: 2px; height: 135px; background-color: #FF4F00; line-height: 0; font-size: 0;">&nbsp;</div>
+          </td>
+
+          <!-- Contact Information Block -->
+          <td valign="top" style="padding: 0;">
+            <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+
+              <!-- Branding / Name & Title -->
+              <tr>
+                <td style="padding: 0 0 12px 0;">
+                  <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+                    <tr>
+                      <td style="padding: 0 0 4px 0;">
+                        <span style="font-family: Arial, Helvetica, sans-serif; font-size: 32px; font-weight: bold; color: #000000; line-height: 1.2; letter-spacing: -0.7px; display: block; margin: 0; padding: 0;">{{NAME}}</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 8px 0 0 0;">
+                        <span style="font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: normal; color: #7F7F7F; line-height: 1.2; letter-spacing: -0.5px; display: block; margin: 0; padding: 0;">{{TITLE}}</span>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <!-- Contact Block -->
+              <tr>
+                <td style="padding: 0;">
+                  <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+                    <!-- Email -->
+                    <tr>
+                      <td style="padding: 0 0 6px 0;">
+                        <a href="mailto:{{EMAIL}}"
+                           style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: normal; color: #7F7F7F; line-height: 1.2; text-decoration: none; display: block;">{{EMAIL}}</a>
+                      </td>
+                    </tr>
+                    <!-- Phone -->
+                    <tr>
+                      <td style="padding: 2px 0 6px 0;">
+                        <a href="tel:{{PHONE_LINK}}"
+                           style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: normal; color: #7F7F7F; line-height: 1.2; text-decoration: none; display: block;">{{PHONE}}</a>
+                      </td>
+                    </tr>
+                    <!-- Website -->
+                    <tr>
+                      <td style="padding: 2px 0 0 0;">
+                        <a href="https://spendrule.com"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: normal; color: #FF4F00; line-height: 1.2; text-decoration: none; display: block;">spendrule.com</a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+            </table>
+          </td>
+
+          <!-- Company Logo -->
+          <td valign="bottom" align="right" style="padding: 0 0 0 24px; vertical-align: bottom;">
+            <img src="{{LOGO_URL}}"
+                 alt="Spendrule company logo"
+                 width="134"
+                 height="28"
+                 style="display: block; border: 0; max-width: 134px; height: auto;" />
+          </td>
+
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
